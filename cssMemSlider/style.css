@@ -70,7 +70,7 @@ input {
 
 .controls-btn {
     width: 50%;
-    column-gap: 2rem;
+    column-gap: 1rem;
     display: flex;
 }
 
@@ -140,6 +140,11 @@ label:hover .label-inner {
 
 #mem4:checked~.controls .container-text .text-mem .first {
     margin-left: -75%;
+}
+
+label:active {
+    background-color: rgb(57 210 236 / 40%);
+    box-shadow: 0 0 0.5rem 0.5rem rgb(57 210 236 / 40%);
 }
 
 label .label-inner {
